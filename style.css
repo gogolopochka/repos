@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+.header {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #fff;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f1f1f1, #ffffff);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+.products {
+  padding: 40px 20px;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product h3 {
+  margin: 15px 0 10px;
+  font-size: 18px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.product button {
+  background: #1f1f1f;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reviews {
+  padding: 40px 20px;
+  background: #f0f0f0;
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.review {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #1f1f1f;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+iframe {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.footer .socials {
+  margin: 20px 0;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
